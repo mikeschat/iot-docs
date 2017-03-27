@@ -209,12 +209,12 @@ Storage</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>510</x>
-      <y>180</y>
+      <y>90</y>
       <w>130</w>
-      <h>40</h>
+      <h>130</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
+    <additional_attributes>10.0;110.0;70.0;110.0;70.0;10.0;110.0;10.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>

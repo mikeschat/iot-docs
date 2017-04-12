@@ -2,147 +2,246 @@
 <diagram program="umlet" version="14.2">
   <zoom_level>10</zoom_level>
   <element>
-    <id>UMLClass</id>
+    <id>UMLPackage</id>
     <coordinates>
-      <x>100</x>
-      <y>230</y>
-      <w>190</w>
-      <h>90</h>
+      <x>470</x>
+      <y>20</y>
+      <w>370</w>
+      <h>180</h>
     </coordinates>
-    <panel_attributes>*Technical Research*
+    <panel_attributes>Test application
 --
-*Familiarize*
---
-*List of current solutions*
-*List of sensors*</panel_attributes>
+-Test sensors
+halign=left
+valign=top
+
+-What is the best sensor to measure fill-levels?
+	</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
-    <id>UMLClass</id>
+    <id>UMLPackage</id>
     <coordinates>
-      <x>410</x>
-      <y>230</y>
-      <w>190</w>
-      <h>90</h>
+      <x>30</x>
+      <y>270</y>
+      <w>360</w>
+      <h>250</h>
     </coordinates>
-    <panel_attributes>*Test Application*
+    <panel_attributes>Theoretical Research
 --
-*Test sensors*
+halign=left
+valign=top
+-Analyze current processes
+___Advantages
+___Disadvantages
+
+-What do current processes look like?
+___What are their advantages?
+___What are their disadvantages?
+-What problems currently excist?</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>40</x>
+      <y>440</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Deliverables
 --
-*Test results*</panel_attributes>
+halign=left
+valign=top
+-Map of current processes</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>470</x>
+      <y>270</y>
+      <w>370</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>Complete Scenario
+--
+-Optimize processes
+halign=left
+valign=top
+
+-How to improve the processes?</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>970</x>
+      <y>210</y>
+      <w>370</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Proof of Concept
+--
+-Develop Application/System
+___Backend
+___Frontend
+-Create Report
+halign=left
+valign=top
+
+-How to improve the sensor-based garbage collection system with LoraWan?</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>40</x>
+      <y>170</y>
+      <w>240</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Deliverables
+--
+halign=left
+valign=top
+-List/comparison of current solutions
+-List of testable sensors</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>480</x>
+      <y>440</y>
+      <w>180</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Deliverables
+--
+halign=left
+valign=top
+-Map of new processes</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>30</x>
+      <y>20</y>
+      <w>370</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>Technical Research
+--
+-Familiarize
+-Find testable sensors for fill-level measurement
+halign=left
+valign=top
+
+-What current sensor-based solutions are already available?
+___What are their advantages?
+___What are their disadvantages?
+-What sensors can be used to measure fill-levels?
+	</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>980</x>
+      <y>360</y>
+      <w>240</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Deliverables
+--
+halign=left
+valign=top
+-Application
+-Report</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>250</y>
-      <w>150</w>
+      <x>390</x>
+      <y>140</y>
+      <w>100</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>UMLClass</id>
+    <id>Relation</id>
     <coordinates>
-      <x>100</x>
-      <y>360</y>
-      <w>190</w>
-      <h>100</h>
+      <x>380</x>
+      <y>400</y>
+      <w>110</w>
+      <h>30</h>
     </coordinates>
-    <panel_attributes>*Theoretical Research*
---
-*Analyze processes*
---
-*Process map*</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>UMLClass</id>
+    <id>Relation</id>
     <coordinates>
-      <x>410</x>
-      <y>360</y>
-      <w>190</w>
-      <h>90</h>
+      <x>390</x>
+      <y>160</y>
+      <w>100</w>
+      <h>250</h>
     </coordinates>
-    <panel_attributes>*Complete Scenario*
---
-*Optimize processes*
---
-*New process map*</panel_attributes>
-    <additional_attributes/>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>80.0;230.0;40.0;230.0;40.0;10.0;10.0;10.0</additional_attributes>
   </element>
   <element>
-    <id>UMLClass</id>
+    <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>300</y>
+      <x>830</x>
+      <y>130</y>
+      <w>160</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>140.0;190.0;80.0;190.0;80.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>830</x>
+      <y>330</y>
       <w>160</w>
       <h>100</h>
     </coordinates>
-    <panel_attributes>*Proof of Concept*
---
-*Develop application*
---
-*Application*
-*Report*</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>280</x>
-      <y>380</y>
-      <w>150</w>
-      <h>30</h>
-    </coordinates>
     <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+    <additional_attributes>140.0;10.0;80.0;10.0;80.0;80.0;10.0;80.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
-      <y>270</y>
-      <w>130</w>
-      <h>80</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>110.0;60.0;50.0;60.0;50.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>590</x>
-      <y>340</y>
-      <w>130</w>
-      <h>100</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>110.0;10.0;50.0;10.0;50.0;80.0;10.0;80.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>280</x>
-      <y>270</y>
-      <w>150</w>
-      <h>120</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-</panel_attributes>
-    <additional_attributes>130.0;100.0;50.0;100.0;50.0;10.0;10.0;10.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>90</x>
-      <y>470</y>
-      <w>790</w>
+      <x>10</x>
+      <y>640</y>
+      <w>1360</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
-*TIME*</panel_attributes>
-    <additional_attributes>770.0;20.0;10.0;20.0</additional_attributes>
+TIME</panel_attributes>
+    <additional_attributes>1340.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>480</x>
+      <y>120</y>
+      <w>240</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Deliverables
+--
+halign=left
+valign=top
+-Sensor usability report</panel_attributes>
+    <additional_attributes/>
   </element>
 </diagram>
